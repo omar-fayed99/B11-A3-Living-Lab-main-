@@ -33,11 +33,37 @@
       </style>
     
 </head>
-<body class="font-sora">
+<body class="font-sora mb-[90px]">
     <!-- header section -->
-    <header>
-        
-    </header>
+    <header class="md:container mx-auto">
+        <nav class="flex items-center justify-between md:justify-evenly lg:justify-evenly p-6 shadow-sm bg-[#FFF9F4]">
+            <!-- Logo -->
+            <div class="flex items-center space-x-2">
+                <img src="assets/logo-header.png" alt="">
+                <span class="text-lg font-semibold hidden md:block lg:block">Browse<span class="text-yellow-500">4</span>Pets</span>
+            </div>
+            
+            <!-- Navigation Links -->
+            <div class="hidden md:flex space-x-6 text-gray-700 hidden md:block lg:block ">
+                <a href="#" class="hover:text-yellow-500">Find a pet</a>
+                <a href="#" class="hover:text-yellow-500">Breeds</a>
+                <a href="#" class="hover:text-yellow-500">Contact us</a>
+            </div>
+            
+            <!-- Icons and Buttons -->
+            <div class="flex items-center space-x-4 hidden md:block lg:block">
+                <button class="text-gray-600 hover:text-gray-900">
+                    &#128276;
+                </button>
+                <button class="text-gray-600 hover:text-gray-900">
+                    &#128269;
+                </button>
+                <button class="border border-gray-300 px-4 py-1 rounded-md hover:bg-gray-200">Login</button>
+                <button class="bg-yellow-500 text-white px-4 py-1 rounded-md hover:bg-yellow-600">Register</button>
+            </div>
+            <div class="block md:hidden lg:hidden"><i class="fa-solid fa-bars"></i></div>
+          </header>
+          <div class="border-t-2 border-black w-full mx-auto block md:hidden lg:hidden"></div>
     <!-- main section -->
     <main></main>
     <!-- footer section -->
